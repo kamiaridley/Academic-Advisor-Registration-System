@@ -11,5 +11,5 @@ Created a web-based student registration system designed for academic advisors. 
 - <b>XAMPP</b>
 
 
-<img src="images/homepage.png" alt="Home Page" width="700"/>
-<img src="index.png"/>
+
+<img src="index.png" width="700"/>
