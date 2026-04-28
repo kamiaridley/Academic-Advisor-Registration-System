@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Course</title>
+</head>
+
+<body>
+
+<h1>Advisor Student Registration System</h1>
+<h2>Add Course</h2>
+
+<!--Add course form-->
+<form action="add_course.php" method="POST">
+
+    Course Code: <input type="text" name="course_code" required><br>
+    <small>Example: MATH 1012</small><br><br>
+	
+    Course Title: <input type="text" name="course_title" required><br>
+	<small>Example: College Algebra</small><br><br>
+
+    Start Time: <input type="time" name="start_time" required><br><br>
+
+    End Time: <input type="time" name="end_time" required><br><br>
+	
+<!--Day selection checkboxes-->
+	Days: <br>
+    <input type="checkbox" name="days[]" value="M"> M
+    <input type="checkbox" name="days[]" value="T"> T
+    <input type="checkbox" name="days[]" value="W"> W
+    <input type="checkbox" name="days[]" value="R"> R
+    <input type="checkbox" name="days[]" value="F"> F
+    <br><br>
+
+    <input type="submit" value="Add Course">
+
+</form>
+
+<br>
+<a href="index.html">Main Menu</a>
+
+</body>
+</html>

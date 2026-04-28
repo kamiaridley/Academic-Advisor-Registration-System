@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Student</title>
+</head>
+<body>
+
+<h1>Advisor Student Registration System</h1>
+<h2>Add New Student</h2>
+
+<!--Add student form-->
+<form action="add_student.php" method="POST">
+
+   Student ID:<br>
+    <input type="text" name="student_id" maxlength="9" required><br><br>
+
+    Name:<br>
+    <input type="text" name="name" required><br><br>
+	
+<!--Major selection dropdown-->
+    Major:<br>
+    <select name="major" required>
+    <option value="">Select Major</option>
+    <option value="Computer Science">Computer Science</option>
+    <option value="Cybersecurity">Cybersecurity</option>
+    <option value="Mathematics">Mathematics</option>
+    <option value="Business">Business</option>
+    <option value="Information Systems">Information Systems</option>
+    </select><br>
+	
+<br><br>
+
+    <input type="submit" value="Add Student">
+
+</form>
+<br>
+
+<a href="index.html">
+    <button type="button">Main Menu</button>
+</a>
+
+</body>
+</html>
