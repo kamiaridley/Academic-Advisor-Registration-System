@@ -12,4 +12,4 @@ Created a web-based student registration system designed for academic advisors. 
 
 
 
-<img src="index.png" width="700"/>
+<img src="index.png" width="500"/>
